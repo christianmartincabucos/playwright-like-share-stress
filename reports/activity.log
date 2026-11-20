@@ -1,0 +1,185 @@
+[2026-11-20T01:59:21.393Z] [COMMENT] [--/1000] [START] mode=external navigation | destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=0 failed=0 skipped=0
+[2026-11-20T01:59:21.422Z] [COMMENT] [1/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=0 failed=0 skipped=0
+[2026-11-20T01:59:24.348Z] [COMMENT] [1/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=2954 | success=1 failed=0 skipped=0
+[2026-11-20T01:59:26.359Z] [COMMENT] [2/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=1 failed=0 skipped=0
+[2026-11-20T01:59:27.878Z] [COMMENT] [2/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1526 | success=2 failed=0 skipped=0
+[2026-11-20T01:59:29.889Z] [COMMENT] [3/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=2 failed=0 skipped=0
+[2026-11-20T01:59:31.288Z] [COMMENT] [3/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1409 | success=3 failed=0 skipped=0
+[2026-11-20T01:59:33.296Z] [COMMENT] [4/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=3 failed=0 skipped=0
+[2026-11-20T01:59:34.399Z] [COMMENT] [4/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1109 | success=4 failed=0 skipped=0
+[2026-11-20T01:59:36.411Z] [COMMENT] [5/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=4 failed=0 skipped=0
+[2026-11-20T01:59:37.517Z] [COMMENT] [5/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1116 | success=5 failed=0 skipped=0
+[2026-11-20T01:59:39.552Z] [COMMENT] [6/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=5 failed=0 skipped=0
+[2026-11-20T01:59:40.565Z] [COMMENT] [6/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1046 | success=6 failed=0 skipped=0
+[2026-11-20T01:59:42.947Z] [COMMENT] [7/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=6 failed=0 skipped=0
+[2026-11-20T01:59:44.628Z] [COMMENT] [7/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=2009 | success=7 failed=0 skipped=0
+[2026-11-20T01:59:46.735Z] [COMMENT] [8/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=7 failed=0 skipped=0
+[2026-11-20T01:59:48.036Z] [COMMENT] [8/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1388 | success=8 failed=0 skipped=0
+[2026-11-20T01:59:50.042Z] [COMMENT] [9/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=8 failed=0 skipped=0
+[2026-11-20T01:59:51.049Z] [COMMENT] [9/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1011 | success=9 failed=0 skipped=0
+[2026-11-20T01:59:53.209Z] [COMMENT] [10/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=9 failed=0 skipped=0
+[2026-11-20T01:59:54.323Z] [COMMENT] [10/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1235 | success=10 failed=0 skipped=0
+[2026-11-20T01:59:56.565Z] [COMMENT] [11/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=10 failed=0 skipped=0
+[2026-11-20T01:59:57.460Z] [COMMENT] [11/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1103 | success=11 failed=0 skipped=0
+[2026-11-20T02:00:00.168Z] [COMMENT] [12/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=11 failed=0 skipped=0
+[2026-11-20T02:00:01.399Z] [COMMENT] [12/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1911 | success=12 failed=0 skipped=0
+[2026-11-20T02:00:03.905Z] [COMMENT] [13/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=12 failed=0 skipped=0
+[2026-11-20T02:00:05.264Z] [COMMENT] [13/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1863 | success=13 failed=0 skipped=0
+[2026-11-20T02:00:07.337Z] [COMMENT] [14/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=13 failed=0 skipped=0
+[2026-11-20T02:00:08.432Z] [COMMENT] [14/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1147 | success=14 failed=0 skipped=0
+[2026-11-20T02:00:10.440Z] [COMMENT] [15/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=14 failed=0 skipped=0
+[2026-11-20T02:00:11.570Z] [COMMENT] [15/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1136 | success=15 failed=0 skipped=0
+[2026-11-20T02:00:13.576Z] [COMMENT] [16/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=15 failed=0 skipped=0
+[2026-11-20T02:00:14.655Z] [COMMENT] [16/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1084 | success=16 failed=0 skipped=0
+[2026-11-20T02:00:16.663Z] [COMMENT] [17/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=16 failed=0 skipped=0
+[2026-11-20T02:00:17.658Z] [COMMENT] [17/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1001 | success=17 failed=0 skipped=0
+[2026-11-20T02:00:19.669Z] [COMMENT] [18/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=17 failed=0 skipped=0
+[2026-11-20T02:00:20.705Z] [COMMENT] [18/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1045 | success=18 failed=0 skipped=0
+[2026-11-20T02:00:22.723Z] [COMMENT] [19/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=18 failed=0 skipped=0
+[2026-11-20T02:00:23.698Z] [COMMENT] [19/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=992 | success=19 failed=0 skipped=0
+[2026-11-20T02:00:25.709Z] [COMMENT] [20/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=19 failed=0 skipped=0
+[2026-11-20T02:00:27.610Z] [COMMENT] [20/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1911 | success=20 failed=0 skipped=0
+[2026-11-20T02:00:29.624Z] [COMMENT] [21/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=20 failed=0 skipped=0
+[2026-11-20T02:00:30.575Z] [COMMENT] [21/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=962 | success=21 failed=0 skipped=0
+[2026-11-20T02:00:32.583Z] [COMMENT] [22/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=21 failed=0 skipped=0
+[2026-11-20T02:00:33.654Z] [COMMENT] [22/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1079 | success=22 failed=0 skipped=0
+[2026-11-20T02:00:35.665Z] [COMMENT] [23/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=22 failed=0 skipped=0
+[2026-11-20T02:00:36.716Z] [COMMENT] [23/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1061 | success=23 failed=0 skipped=0
+[2026-11-20T02:00:38.725Z] [COMMENT] [24/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=23 failed=0 skipped=0
+[2026-11-20T02:00:39.708Z] [COMMENT] [24/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=991 | success=24 failed=0 skipped=0
+[2026-11-20T02:00:41.716Z] [COMMENT] [25/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=24 failed=0 skipped=0
+[2026-11-20T02:00:42.756Z] [COMMENT] [25/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1047 | success=25 failed=0 skipped=0
+[2026-11-20T02:00:52.772Z] [COMMENT] [26/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=25 failed=0 skipped=0
+[2026-11-20T02:00:53.876Z] [COMMENT] [26/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1118 | success=26 failed=0 skipped=0
+[2026-11-20T02:00:55.887Z] [COMMENT] [27/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=26 failed=0 skipped=0
+[2026-11-20T02:00:56.636Z] [COMMENT] [27/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=759 | success=27 failed=0 skipped=0
+[2026-11-20T02:00:58.659Z] [COMMENT] [28/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=27 failed=0 skipped=0
+[2026-11-20T02:00:59.729Z] [COMMENT] [28/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1092 | success=28 failed=0 skipped=0
+[2026-11-20T02:01:01.750Z] [COMMENT] [29/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=28 failed=0 skipped=0
+[2026-11-20T02:01:02.633Z] [COMMENT] [29/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=903 | success=29 failed=0 skipped=0
+[2026-11-20T02:01:04.642Z] [COMMENT] [30/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=29 failed=0 skipped=0
+[2026-11-20T02:01:05.809Z] [COMMENT] [30/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1176 | success=30 failed=0 skipped=0
+[2026-11-20T02:01:07.819Z] [COMMENT] [31/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=30 failed=0 skipped=0
+[2026-11-20T02:01:09.192Z] [COMMENT] [31/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1375 | success=31 failed=0 skipped=0
+[2026-11-20T02:01:11.202Z] [COMMENT] [32/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=31 failed=0 skipped=0
+[2026-11-20T02:01:12.428Z] [COMMENT] [32/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1235 | success=32 failed=0 skipped=0
+[2026-11-20T02:01:14.439Z] [COMMENT] [33/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=32 failed=0 skipped=0
+[2026-11-20T02:01:15.700Z] [COMMENT] [33/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1271 | success=33 failed=0 skipped=0
+[2026-11-20T02:01:17.709Z] [COMMENT] [34/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=33 failed=0 skipped=0
+[2026-11-20T02:01:18.797Z] [COMMENT] [34/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1095 | success=34 failed=0 skipped=0
+[2026-11-20T02:01:20.837Z] [COMMENT] [35/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=34 failed=0 skipped=0
+[2026-11-20T02:01:21.812Z] [COMMENT] [35/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1004 | success=35 failed=0 skipped=0
+[2026-11-20T02:01:23.823Z] [COMMENT] [36/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=35 failed=0 skipped=0
+[2026-11-20T02:01:24.630Z] [COMMENT] [36/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=817 | success=36 failed=0 skipped=0
+[2026-11-20T02:01:26.650Z] [COMMENT] [37/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=36 failed=0 skipped=0
+[2026-11-20T02:01:27.809Z] [COMMENT] [37/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1177 | success=37 failed=0 skipped=0
+[2026-11-20T02:01:29.818Z] [COMMENT] [38/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=37 failed=0 skipped=0
+[2026-11-20T02:01:30.961Z] [COMMENT] [38/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1150 | success=38 failed=0 skipped=0
+[2026-11-20T02:01:32.974Z] [COMMENT] [39/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=38 failed=0 skipped=0
+[2026-11-20T02:01:33.774Z] [COMMENT] [39/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=811 | success=39 failed=0 skipped=0
+[2026-11-20T02:01:36.024Z] [COMMENT] [40/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=39 failed=0 skipped=0
+[2026-11-20T02:01:37.095Z] [COMMENT] [40/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1315 | success=40 failed=0 skipped=0
+[2026-11-20T02:01:39.109Z] [COMMENT] [41/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=40 failed=0 skipped=0
+[2026-11-20T02:01:40.314Z] [COMMENT] [41/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1217 | success=41 failed=0 skipped=0
+[2026-11-20T02:01:42.380Z] [COMMENT] [42/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=41 failed=0 skipped=0
+[2026-11-20T02:01:43.730Z] [COMMENT] [42/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1414 | success=42 failed=0 skipped=0
+[2026-11-20T02:01:45.739Z] [COMMENT] [43/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=42 failed=0 skipped=0
+[2026-11-20T02:01:47.297Z] [COMMENT] [43/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1566 | success=43 failed=0 skipped=0
+[2026-11-20T02:01:49.307Z] [COMMENT] [44/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=43 failed=0 skipped=0
+[2026-11-20T02:01:50.723Z] [COMMENT] [44/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1424 | success=44 failed=0 skipped=0
+[2026-11-20T02:01:52.732Z] [COMMENT] [45/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=44 failed=0 skipped=0
+[2026-11-20T02:01:54.067Z] [COMMENT] [45/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1342 | success=45 failed=0 skipped=0
+[2026-11-20T02:01:56.077Z] [COMMENT] [46/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=45 failed=0 skipped=0
+[2026-11-20T02:01:56.820Z] [COMMENT] [46/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=752 | success=46 failed=0 skipped=0
+[2026-11-20T02:01:58.841Z] [COMMENT] [47/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=46 failed=0 skipped=0
+[2026-11-20T02:01:59.893Z] [COMMENT] [47/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1072 | success=47 failed=0 skipped=0
+[2026-11-20T02:02:01.905Z] [COMMENT] [48/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=47 failed=0 skipped=0
+[2026-11-20T02:02:02.999Z] [COMMENT] [48/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1105 | success=48 failed=0 skipped=0
+[2026-11-20T02:02:05.010Z] [COMMENT] [49/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=48 failed=0 skipped=0
+[2026-11-20T02:02:06.101Z] [COMMENT] [49/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1101 | success=49 failed=0 skipped=0
+[2026-11-20T02:02:08.109Z] [COMMENT] [50/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=49 failed=0 skipped=0
+[2026-11-20T02:02:09.200Z] [COMMENT] [50/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1097 | success=50 failed=0 skipped=0
+[2026-11-20T02:02:19.214Z] [COMMENT] [51/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=50 failed=0 skipped=0
+[2026-11-20T02:02:20.368Z] [COMMENT] [51/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1166 | success=51 failed=0 skipped=0
+[2026-11-20T02:02:22.372Z] [COMMENT] [52/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=51 failed=0 skipped=0
+[2026-11-20T02:02:23.222Z] [COMMENT] [52/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=854 | success=52 failed=0 skipped=0
+[2026-11-20T02:02:25.252Z] [COMMENT] [53/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=52 failed=0 skipped=0
+[2026-11-20T02:02:26.071Z] [COMMENT] [53/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=846 | success=53 failed=0 skipped=0
+[2026-11-20T02:02:28.080Z] [COMMENT] [54/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=53 failed=0 skipped=0
+[2026-11-20T02:02:29.115Z] [COMMENT] [54/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1042 | success=54 failed=0 skipped=0
+[2026-11-20T02:02:31.126Z] [COMMENT] [55/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=54 failed=0 skipped=0
+[2026-11-20T02:02:32.249Z] [COMMENT] [55/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1132 | success=55 failed=0 skipped=0
+[2026-11-20T02:02:34.271Z] [COMMENT] [56/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=55 failed=0 skipped=0
+[2026-11-20T02:02:35.247Z] [COMMENT] [56/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=996 | success=56 failed=0 skipped=0
+[2026-11-20T02:02:37.256Z] [COMMENT] [57/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=56 failed=0 skipped=0
+[2026-11-20T02:02:38.362Z] [COMMENT] [57/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1115 | success=57 failed=0 skipped=0
+[2026-11-20T02:02:40.375Z] [COMMENT] [58/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=57 failed=0 skipped=0
+[2026-11-20T02:02:41.172Z] [COMMENT] [58/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=809 | success=58 failed=0 skipped=0
+[2026-11-20T02:02:43.187Z] [COMMENT] [59/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=58 failed=0 skipped=0
+[2026-11-20T02:02:44.147Z] [COMMENT] [59/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=973 | success=59 failed=0 skipped=0
+[2026-11-20T02:02:46.173Z] [COMMENT] [60/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=59 failed=0 skipped=0
+[2026-11-20T02:02:46.938Z] [COMMENT] [60/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=790 | success=60 failed=0 skipped=0
+[2026-11-20T02:02:49.128Z] [COMMENT] [61/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=60 failed=0 skipped=0
+[2026-11-20T02:02:50.219Z] [COMMENT] [61/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1249 | success=61 failed=0 skipped=0
+[2026-11-20T02:02:52.265Z] [COMMENT] [62/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=61 failed=0 skipped=0
+[2026-11-20T02:02:53.541Z] [COMMENT] [62/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1318 | success=62 failed=0 skipped=0
+[2026-11-20T02:02:55.557Z] [COMMENT] [63/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=62 failed=0 skipped=0
+[2026-11-20T02:02:56.802Z] [COMMENT] [63/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1259 | success=63 failed=0 skipped=0
+[2026-11-20T02:02:58.816Z] [COMMENT] [64/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=63 failed=0 skipped=0
+[2026-11-20T02:02:59.816Z] [COMMENT] [64/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1013 | success=64 failed=0 skipped=0
+[2026-11-20T02:03:01.836Z] [COMMENT] [65/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=64 failed=0 skipped=0
+[2026-11-20T02:03:02.931Z] [COMMENT] [65/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1113 | success=65 failed=0 skipped=0
+[2026-11-20T02:03:04.941Z] [COMMENT] [66/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=65 failed=0 skipped=0
+[2026-11-20T02:03:05.962Z] [COMMENT] [66/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1029 | success=66 failed=0 skipped=0
+[2026-11-20T02:03:07.976Z] [COMMENT] [67/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=66 failed=0 skipped=0
+[2026-11-20T02:03:09.004Z] [COMMENT] [67/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1041 | success=67 failed=0 skipped=0
+[2026-11-20T02:03:11.037Z] [COMMENT] [68/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=67 failed=0 skipped=0
+[2026-11-20T02:03:12.245Z] [COMMENT] [68/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1233 | success=68 failed=0 skipped=0
+[2026-11-20T02:03:14.425Z] [COMMENT] [69/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=68 failed=0 skipped=0
+[2026-11-20T02:03:15.703Z] [COMMENT] [69/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1400 | success=69 failed=0 skipped=0
+[2026-11-20T02:03:17.730Z] [COMMENT] [70/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=69 failed=0 skipped=0
+[2026-11-20T02:03:18.785Z] [COMMENT] [70/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1080 | success=70 failed=0 skipped=0
+[2026-11-20T02:03:20.806Z] [COMMENT] [71/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=70 failed=0 skipped=0
+[2026-11-20T02:03:21.956Z] [COMMENT] [71/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1169 | success=71 failed=0 skipped=0
+[2026-11-20T02:03:23.976Z] [COMMENT] [72/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=71 failed=0 skipped=0
+[2026-11-20T02:03:25.207Z] [COMMENT] [72/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1250 | success=72 failed=0 skipped=0
+[2026-11-20T02:03:27.218Z] [COMMENT] [73/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=72 failed=0 skipped=0
+[2026-11-20T02:03:28.330Z] [COMMENT] [73/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1122 | success=73 failed=0 skipped=0
+[2026-11-20T02:03:30.340Z] [COMMENT] [74/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=73 failed=0 skipped=0
+[2026-11-20T02:03:31.554Z] [COMMENT] [74/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1222 | success=74 failed=0 skipped=0
+[2026-11-20T02:03:33.565Z] [COMMENT] [75/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=74 failed=0 skipped=0
+[2026-11-20T02:03:34.457Z] [COMMENT] [75/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=901 | success=75 failed=0 skipped=0
+[2026-11-20T02:03:44.483Z] [COMMENT] [76/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=75 failed=0 skipped=0
+[2026-11-20T02:03:45.601Z] [COMMENT] [76/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1142 | success=76 failed=0 skipped=0
+[2026-11-20T02:03:47.610Z] [COMMENT] [77/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=76 failed=0 skipped=0
+[2026-11-20T02:03:48.756Z] [COMMENT] [77/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1154 | success=77 failed=0 skipped=0
+[2026-11-20T02:03:50.766Z] [COMMENT] [78/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=77 failed=0 skipped=0
+[2026-11-20T02:03:51.836Z] [COMMENT] [78/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1079 | success=78 failed=0 skipped=0
+[2026-11-20T02:03:53.844Z] [COMMENT] [79/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=78 failed=0 skipped=0
+[2026-11-20T02:03:54.825Z] [COMMENT] [79/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=988 | success=79 failed=0 skipped=0
+[2026-11-20T02:03:56.835Z] [COMMENT] [80/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=79 failed=0 skipped=0
+[2026-11-20T02:03:57.916Z] [COMMENT] [80/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1090 | success=80 failed=0 skipped=0
+[2026-11-20T02:03:59.923Z] [COMMENT] [81/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=80 failed=0 skipped=0
+[2026-11-20T02:04:00.935Z] [COMMENT] [81/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1016 | success=81 failed=0 skipped=0
+[2026-11-20T02:04:02.948Z] [COMMENT] [82/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=81 failed=0 skipped=0
+[2026-11-20T02:04:04.118Z] [COMMENT] [82/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1176 | success=82 failed=0 skipped=0
+[2026-11-20T02:04:06.127Z] [COMMENT] [83/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=82 failed=0 skipped=0
+[2026-11-20T02:04:07.264Z] [COMMENT] [83/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1145 | success=83 failed=0 skipped=0
+[2026-11-20T02:04:09.279Z] [COMMENT] [84/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=83 failed=0 skipped=0
+[2026-11-20T02:04:10.340Z] [COMMENT] [84/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1073 | success=84 failed=0 skipped=0
+[2026-11-20T02:04:12.363Z] [COMMENT] [85/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=84 failed=0 skipped=0
+[2026-11-20T02:04:13.451Z] [COMMENT] [85/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1109 | success=85 failed=0 skipped=0
+[2026-11-20T02:04:15.476Z] [COMMENT] [86/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=85 failed=0 skipped=0
+[2026-11-20T02:04:17.336Z] [COMMENT] [86/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1884 | success=86 failed=0 skipped=0
+[2026-11-20T02:04:19.345Z] [COMMENT] [87/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=86 failed=0 skipped=0
+[2026-11-20T02:04:20.649Z] [COMMENT] [87/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1309 | success=87 failed=0 skipped=0
+[2026-11-20T02:10:40.948Z] [COMMENT] [88/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=87 failed=0 skipped=0
+[2026-11-20T02:10:42.608Z] [COMMENT] [88/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1988 | success=88 failed=0 skipped=0
+[2026-11-20T02:10:44.645Z] [COMMENT] [89/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=88 failed=0 skipped=0
+[2026-11-20T02:10:47.091Z] [COMMENT] [89/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=2481 | success=89 failed=0 skipped=0
+[2026-11-20T02:10:49.101Z] [COMMENT] [90/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=89 failed=0 skipped=0
+[2026-11-20T02:10:50.853Z] [COMMENT] [90/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1760 | success=90 failed=0 skipped=0
+[2026-11-20T02:10:52.862Z] [COMMENT] [91/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=90 failed=0 skipped=0
+[2026-11-20T02:10:53.919Z] [COMMENT] [91/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1064 | success=91 failed=0 skipped=0
+[2026-11-20T02:10:55.932Z] [COMMENT] [92/1000] [CLICKING] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | success=91 failed=0 skipped=0
+[2026-11-20T02:10:57.005Z] [COMMENT] [92/1000] [SUCCESS] destination=https://www.youtube.com/watch?v=VIxeHfO4WiE | exitMethod=popup_closed | returnedToDashboard=true | durationMs=1085 | success=92 failed=0 skipped=0
