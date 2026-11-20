@@ -64,21 +64,13 @@ async function runLikeStress(page, config, state, monitor) {
       logAction(state, 'like', 'SUCCESS', iteration, action.requested, { verifiedState: verification.state, durationMs: duration });
       consecutivePreActionFailures = 0;
     } catch (error) {
-      if (dispatched) {
-        action.failed += 1;
-        logAction(state, 'like', 'FAILED', iteration, action.requested, { reason: error.message, clickDispatched: true });
-        await captureFailure(page, config, state, 'like', iteration, new Error(`${error.message} Click dispatch may have occurred; no retry was attempted.`));
-        action.status = 'failed';
-        state.stopReason = `Like iteration ${iteration} failed after click dispatch; stopped because the outcome may be uncertain.`;
-        break;
-      }
       action.failed += 1;
-      logAction(state, 'like', 'FAILED', iteration, action.requested, { reason: error.message, clickDispatched: false });
       consecutivePreActionFailures += 1;
+      logAction(state, 'like', 'FAILED', iteration, action.requested, { reason: error.message, clickDispatched: dispatched });
       await captureFailure(page, config, state, 'like', iteration, error);
       if (consecutivePreActionFailures >= config.maxConsecutiveFailures) {
         action.status = 'failed';
-        state.stopReason = `Like stopped after ${consecutivePreActionFailures} consecutive pre-click failures.`;
+        state.stopReason = `Like stopped after ${consecutivePreActionFailures} consecutive failures.`;
         break;
       }
       await sleep(config.batchCooldownMs);
@@ -324,11 +316,16 @@ async function runShareStress(page, context, config, state, monitor) {
       action.responseTimesMs.push(duration);
       if (evidenceCount === 0) {
         action.failed += 1;
+        consecutivePreActionFailures += 1;
         logAction(state, 'share', 'FAILED', iteration, action.requested, { reason: 'No share effect, popup, dialog, or navigation was detected', clickDispatched: true });
-        await captureFailure(page, config, state, 'share', iteration, new Error('Share click was dispatched, but no dialog/menu, native share call, clipboard write, popup, or navigation was detected. The action will not be retried.'));
-        action.status = 'failed';
-        state.stopReason = `Share iteration ${iteration} could not be verified; stopped to avoid duplicate share actions.`;
-        break;
+        await captureFailure(page, config, state, 'share', iteration, new Error('Share click was dispatched, but no dialog/menu, native share call, clipboard write, popup, or navigation was detected.'));
+        if (consecutivePreActionFailures >= config.maxConsecutiveFailures) {
+          action.status = 'failed';
+          state.stopReason = `Share stopped after ${consecutivePreActionFailures} consecutive failures.`;
+          break;
+        }
+        await sleep(config.batchCooldownMs);
+        continue;
       }
       if (shareDelta > 1 || clipboardDelta > 1 || openDelta > 1 || newPages > 1 || popupDelta > 1) {
         action.failed += 1;
@@ -362,21 +359,13 @@ async function runShareStress(page, context, config, state, monitor) {
       if (navigationOpened) evidence.push(`destination exited via ${destination.exitMethod}: ${destination.destinationUrl}`);
       logAction(state, 'share', 'SUCCESS', iteration, action.requested, { verifiedBy: evidence.join('; ') || 'share handler evidence', durationMs: duration });
     } catch (error) {
-      if (dispatched) {
-        action.failed += 1;
-        logAction(state, 'share', 'FAILED', iteration, action.requested, { reason: error.message, clickDispatched: true });
-        await captureFailure(page, config, state, 'share', iteration, new Error(`${error.message} Click dispatch may have occurred; no retry was attempted.`));
-        action.status = 'failed';
-        state.stopReason = `Share iteration ${iteration} failed after click dispatch; stopped because the outcome may be uncertain.`;
-        break;
-      }
       action.failed += 1;
-      logAction(state, 'share', 'FAILED', iteration, action.requested, { reason: error.message, clickDispatched: false });
       consecutivePreActionFailures += 1;
+      logAction(state, 'share', 'FAILED', iteration, action.requested, { reason: error.message, clickDispatched: dispatched });
       await captureFailure(page, config, state, 'share', iteration, error);
       if (consecutivePreActionFailures >= config.maxConsecutiveFailures) {
         action.status = 'failed';
-        state.stopReason = `Share stopped after ${consecutivePreActionFailures} consecutive pre-click failures.`;
+        state.stopReason = `Share stopped after ${consecutivePreActionFailures} consecutive failures.`;
         break;
       }
       await sleep(config.batchCooldownMs);

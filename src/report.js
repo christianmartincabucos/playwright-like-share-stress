@@ -196,5 +196,89 @@ function renderCommentMarkdown(state, config) {
   return lines.join('\n');
 }
 
-module.exports = { finalizeReport, finalizeCommentReport, renderActivityLog };
+
+async function finalizeLikeReport(state, config) {
+  state.finishedAt = new Date().toISOString();
+  const started = Date.parse(state.startedAt);
+  state.executionTimeMs = Math.max(0, Date.now() - started);
+
+  state.actions.like.timing = summarizeTimes(state.actions.like.responseTimesMs || []);
+  delete state.actions.like.responseTimesMs;
+
+  const likeCompleted = state.actions.like.successful === state.actions.like.requested;
+  const observedFailure = Boolean(
+    state.errors.length || state.jsErrors.length || (config.failOnConsoleError && state.consoleErrors.length) ||
+    state.browserCrashes.length || state.unexpectedNavigations.length ||
+    state.httpErrorResponses.some(item => item.status >= 500 || (item.status === 429 && item.category !== 'telemetry')) ||
+    state.failedRequests.some(item => {
+      try { return new URL(item.url).origin === new URL(state.targetUrl).origin && ['xhr', 'fetch'].includes(item.resourceType); }
+      catch (_) { return false; }
+    }) || state.actions.like.failed
+  );
+  if (observedFailure) state.finalStatus = 'Failed';
+  else if (likeCompleted && state.navigation.succeeded) state.finalStatus = 'Passed';
+  else state.finalStatus = 'Incomplete';
+
+  await fs.mkdir(config.reportsDir, { recursive: true });
+  await fs.writeFile(path.join(config.reportsDir, 'report-like.json'), `${JSON.stringify(state, null, 2)}\n`, 'utf8');
+  await fs.writeFile(path.join(config.reportsDir, 'errors-like.json'), `${JSON.stringify(state.errors, null, 2)}\n`, 'utf8');
+  await fs.writeFile(path.join(config.reportsDir, 'activity.json'), `${JSON.stringify(state.activityLog || [], null, 2)}\n`, 'utf8');
+  await fs.writeFile(path.join(config.reportsDir, 'activity.log'), renderActivityLog(state.activityLog || []), 'utf8');
+  await fs.writeFile(path.join(config.reportsDir, 'summary-like.md'), renderLikeMarkdown(state, config), 'utf8');
+  return state;
+}
+
+function renderLikeMarkdown(state, config) {
+  const like = state.actions.like;
+  const avg = like.timing.averageMs == null ? 'N/A' : `${like.timing.averageMs} ms`;
+  const max = like.timing.maximumMs == null ? 'N/A' : `${like.timing.maximumMs} ms`;
+  const lines = [
+    '# Playwright Like Stress Test', '',
+    `- **Final application status:** ${state.finalStatus}`,
+    `- **Target URL:** ${state.targetUrl}`,
+    `- **Started:** ${state.startedAt}`,
+    `- **Finished:** ${state.finishedAt || 'Not finished'}`,
+    `- **Total execution time:** ${(state.executionTimeMs / 1000).toFixed(2)} seconds`,
+    `- **Overall interactions:** ${like.successful}/${like.requested} verified`,
+    '', '## Interaction results', '',
+    '| Metric | Like |', '|---|---:|',
+    `| Requested | ${like.requested} |`,
+    `| Successful | ${like.successful} |`,
+    `| Failed | ${like.failed} |`,
+    `| Skipped / not run | ${like.skipped} |`,
+    `| Status | ${like.status} |`,
+    `| Average response time | ${avg} |`,
+    `| Maximum response time | ${max} |`,
+    '', '## Stability metrics', '',
+    `- JavaScript page errors: ${state.jsErrors.length}`,
+    `- Console errors: ${state.consoleErrors.length} (fatal on console error: ${config.failOnConsoleError ? 'yes' : 'no'})`,
+    `- Failed network requests: ${state.failedRequests.length}`,
+    `- HTTP 4xx/5xx responses: ${state.httpErrorResponses.length}`,
+    `- Telemetry HTTP 429 responses (recorded, non-fatal): ${state.telemetryRateLimits.length}`,
+    `- Browser/page crashes or disconnects: ${state.browserCrashes.length}`,
+    `- Unexpected same-site navigations: ${state.unexpectedNavigations.length}`,
+    `- Dialogs observed: ${state.dialogs.length}`,
+    `- Popups observed: ${state.popups}`,
+    `- Live activity events recorded: ${(state.activityLog || []).length}`,
+    '', '## Preflight inspection', '',
+    `- Navigation succeeded: ${state.navigation.succeeded}`,
+    `- HTTP status: ${state.navigation.status == null ? 'N/A' : state.navigation.status}`,
+    `- Like disposition: ${state.inspection?.like?.disposition?.reason || (state.inspection?.like?.disposition?.runnable ? 'Runnable control' : 'Not inspected')}`,
+    '', '## Run notes', ''
+  ];
+  if (!state.notes.length) lines.push('None.');
+  else state.notes.forEach(note => lines.push(`- ${note}`));
+  lines.push('', '## Stop reason', '', state.stopReason || 'None', '', '## Error details', '');
+  if (!state.errors.length) lines.push('No interaction errors were recorded.');
+  else {
+    state.errors.forEach((error, index) => {
+      lines.push(`${index + 1}. **${error.action} iteration ${error.iteration}** — ${error.timestamp}`, `   - ${error.message}`, `   - URL: ${error.url || 'N/A'}`, `   - Screenshot: ${error.screenshot || error.screenshotError || 'Not captured'}`);
+    });
+  }
+  lines.push('', '## Supporting files', '', '- `report-like.json`: complete machine-readable run data', '- `activity.log`: readable live-action log', '- `activity.json`: structured activity events', '- `errors-like.json`: interaction errors and screenshot paths', '- `preflight-like.json`: accessible-control and DOM inventory', '- `playwright-results.json`: Playwright runner output', '- `artifacts/failures/`: screenshots captured on interaction failures', '');
+  return lines.join('\n');
+}
+
+module.exports = { finalizeReport, finalizeCommentReport, finalizeLikeReport, renderActivityLog };
+
 

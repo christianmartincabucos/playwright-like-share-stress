@@ -45,6 +45,39 @@ function createActionState(requested) {
   };
 }
 
+function createLikeRunState(config) {
+  const now = new Date().toISOString();
+  return {
+    startedAt: now,
+    finishedAt: null,
+    targetUrl: config.targetUrl,
+    requested: { like: config.likeClicks },
+    actions: {
+      like: createActionState(config.likeClicks)
+    },
+    executionTimeMs: 0,
+    navigation: { attempted: false, succeeded: false, status: null, error: null },
+    inspection: null,
+    jsErrors: [],
+    consoleErrors: [],
+    failedRequests: [],
+    httpErrorResponses: [],
+    telemetryRateLimits: [],
+    telemetryCooldowns: [],
+    browserCrashes: [],
+    unexpectedNavigations: [],
+    externalNavigations: [],
+    externalDestinationsExited: [],
+    dialogs: [],
+    popups: 0,
+    errors: [],
+    activityLog: [],
+    notes: [],
+    stopReason: null,
+    finalStatus: 'Incomplete'
+  };
+}
+
 function createCommentRunState(config) {
   const now = new Date().toISOString();
   return {
@@ -78,4 +111,4 @@ function createCommentRunState(config) {
   };
 }
 
-module.exports = { createRunState, createCommentRunState };
+module.exports = { createRunState, createLikeRunState, createCommentRunState };
